@@ -14,7 +14,7 @@ for(let i=59 ; i>=0; i--){
 for(let i=2 ; i>0; i--){
     let ampm=i==1?"AM":"PM";
     let option= `<option value="${ampm}">${ampm}</option>`;
-    selectmenu[1].firstElementChild.insertAdjacentHTML("afterend",option);
+    selectmenu[2].firstElementChild.insertAdjacentHTML("afterend",option);
 }
 
 setInterval(()=>{
