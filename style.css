@@ -20,6 +20,9 @@ body{
     border-radius: 10px;
     flex-direction: column;
     padding: 30px 30px 38px;
+    border-width: 8px;
+    border-style: groove;
+    border-color: red;
 }
 .wrapper img{
     max-width: 103px;
